@@ -30,7 +30,7 @@ app.use("/api/v1/order", require("./routes/orderRoutes"));
 app.get("/", (req, res) => {
     return res
       .status(200)
-      .send("<h1>Welcome to Food Server APP API BASE PROJECT </h1>");
+      .send("Welcome to Food Server App API base Project");
   });
   
   //PORT
